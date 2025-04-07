@@ -1,3 +1,5 @@
+[Azure CLI is required](https://learn.microsoft.com/de-de/cli/azure/)
+
 Add your Azure Subscription ID in ./Iac-1/terraform.tfvars and ./Iac-2/terraform.tfvars
 
 To start the project
