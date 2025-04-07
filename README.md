@@ -8,11 +8,13 @@ az login
 
 ```bash
 cd Iac-1
+terraform init
 terraform apply
 ```
 
 ```bash
 cd ../IaC-2
+terraform init
 az aks get-credentials --resource-group thesis-25-hdm-stuttgart --name thesis-aks-cluster-hdm-25 --overwrite-existing
 terraform apply -target=helm_release.keda
 terraform apply
