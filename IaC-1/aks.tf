@@ -6,7 +6,7 @@ resource "azurerm_kubernetes_cluster" "aks_cluster_thesis_hdm_25" {
 
   default_node_pool {
     name = "default"
-    node_count = 1
+    node_count = 2
     vm_size        = "Standard_DS2_v2"
     vnet_subnet_id = azurerm_subnet.aks_subnet.id
 
