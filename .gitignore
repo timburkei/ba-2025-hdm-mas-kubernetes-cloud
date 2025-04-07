@@ -37,3 +37,5 @@ override.tf.json
 terraform.rc
 
 venv/
+IaC-2/.terraform.lock.hcl
+IaC-1/.terraform.lock.hcl
